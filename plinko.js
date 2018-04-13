@@ -138,7 +138,7 @@ $(document).ready(function () {
                 id = window.setInterval(function() {
 			        var chip = new Chip('plinko-board', 500);
 			        chip.start();
-                }, 30);
+                }, 32);
            } else {
                 $('#faucet').text('on');
                 window.clearInterval(id);
